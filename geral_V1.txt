@@ -1,0 +1,2 @@
+Esse texto é um resumo teste para o GitHub.
+Agora foi acrescido mais informações para verificar o comportamento da ferramenta.
