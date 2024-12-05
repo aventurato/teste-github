@@ -1,4 +1,5 @@
 Esse texto é um resumo teste para o GitHub.
 Agora foi acrescido mais informações para verificar o comportamento da ferramenta.
 Testando o criação de uma nova branch para teste.
+Acrescentando informações do Departamento Data Science.
 
