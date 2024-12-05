@@ -2,4 +2,8 @@ Esse texto é um resumo teste para o GitHub.
 Agora foi acrescido mais informações para verificar o comportamento da ferramenta.
 Testando o criação de uma nova branch para teste.
 Acrescentando informações do Departamento Data Science.
-
+SCANC é um projeto desenvolvido para automatizar o processo de leitura de arquivos, verificação de operação de congêneres, separação de dados em um arquivo Excel e envio desses dados por e-mail para uma lista de contatos cadastrados. O objetivo principal do projeto é facilitar a análise e distribuição de informações operacionais de forma eficiente e automatizada.
+Leitura de Arquivos: O programa lê arquivos de entrada que contêm movimentação (dados) entre congêneres.
+Verificação de Congêneres: O programa verifica quais congêneres tiveram operação, filtrando os dados necessários.
+Geração de Arquivo Excel: A partir dos dados filtrados, é gerado um arquivo Excel com as informações separadas por congênere.
+Envio de E-mails: O programa envia o arquivo gerado por e-mail para uma lista de contatos previamente cadastrada.
