@@ -1,3 +1,4 @@
 Esse texto é um resumo teste para o GitHub.
 Agora foi acrescido mais informações para verificar o comportamento da ferramenta.
-Essa alteração promove a retirada de 3 linhas de texto na branch PRODUÇÃO.
+Testando o criação de uma nova branch para teste.
+
