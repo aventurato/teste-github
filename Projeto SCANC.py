@@ -4,7 +4,6 @@ import pandas as pd
 import time
 import re
 from datetime import datetime
-from dateutil.relativedelta import relativedelta
 import win32com.client as client
 
 
@@ -13,7 +12,7 @@ inicio = time.time()
 
 data_atual = datetime.now()
 print(data_atual)
-mes_ano = (data_atual - relativedelta(months=1)).strftime('%m-%Y')
+mes_ano = data_atual.strftime('%m-%Y')
 print(f'Mês e ano atual: {mes_ano}')
 
 ##### ----- ACESSANDO PASTA (SCANC) ----- #####
@@ -137,13 +136,6 @@ for index, row in dados_regras.iterrows():
         'Email': row['Email'],
         'Cc': row['Cc'].split(',')
     }
-
-    # '10.204.914.0001-28': {
-    #     'SCANC': ['DIS'],
-    #     'Nome': 'COPERCANA DISTRIBUIDORA',
-    #     'CFOP': ['5656/AA', '5655/AA', '1652/AA', '2652/AA', '6655/AA', '6656/AA', '5655/AB'],
-    #     'Email': 'diego.batista@royalfic.com.br',
-    #     'Cc': ['fiscal_@ficpetroleo.com.br', 'airton.junior@royalfic.com.br']}
 
 
 ##### ----- FILTRO POR SEGMENTAÇÃO ----- #####
